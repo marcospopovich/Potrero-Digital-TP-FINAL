@@ -163,9 +163,11 @@ h2 {
 }
 main {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns:  1fr 1fr 1fr;
   gap: 1rem;
   padding: 1rem;
+  max-width: 80%;
+  margin: auto;
 }
 
 /*ICONOS*/
