@@ -1,4 +1,4 @@
-# Proyecto Final - Potrero Digital  -Plantas Ornamentales
+# Potrero Digital - Proyecto Final - Plantas Ornamentales
 
 ![Plantas Ornamentales](img/banner.png)
 
