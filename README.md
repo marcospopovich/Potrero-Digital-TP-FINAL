@@ -1,6 +1,6 @@
 # Proyecto Final - Sitio web de Plantas Ornamentales
 
-![Plantas Ornamentales](link_a_tu_imagen)
+![Plantas Ornamentales](img/banner.png)
 
 Este repositorio contiene el proyecto final para la institución "Potrero Digital". Se trata de un sitio web desarrollado utilizando únicamente HTML y CSS, aprovechando las tecnologías de Grid y Flexbox para crear diseños flexibles y responsivos.
 
