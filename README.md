@@ -22,4 +22,7 @@ El objetivo de este proyecto es crear un sitio web informativo sobre plantas orn
 1. Clona este repositorio en tu máquina local:
 
    ```bash
-   git clone https://github.com/tu_usuario/nombre_del_repositorio.git
+   git clone https://github.com/marcospopovich/Potrero-Digital-TP-Final.git
+
+  # Contribución
+## ¡Las contribuciones son bienvenidas! Si tienes alguna idea, sugerencia o problema relacionado con el proyecto, por favor, abre un nuevo issue o envía una solicitud de pull request. Asegúrate de seguir las pautas de contribución.
