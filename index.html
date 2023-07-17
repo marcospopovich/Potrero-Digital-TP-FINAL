@@ -5,36 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    
-      <!-- CDN de google icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+    <!-- CDN de google icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
     <title>Vivero Madre Selva</title>
   </head>
   <body>
     <div id="cabecera"></div>
     <div class="container">
       <img src="img/logo.png" alt="Logo" />
-     
 
       <div class="respmenu">
-        <input type="checkbox">
+        <input type="checkbox" />
         <i class="fas fa-bars"></i>
         <i class="fas fa-times"></i>
-      <nav>
-        <ul>
-          <li><a href="acerca">Nosotros</a></li>
-          <li><a href="servicios">Servicios</a></li>
-          <li><a href="archivo">Archivo</a></li>
-          <li><a href="fichas">Fichas</a></li>
-          <li><a href="inicio">Inicio</a></li>
-        </ul>
-      </nav>
+        <nav>
+          <ul>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Archivo</a></li>
+            <li><a href="#">Fichas</a></li>
+            <li><a href="inicio">Inicio</a></li>
+          </ul>
+        </nav>
       </div>
     </div>
-    
     <img src="./img/banner.png" alt="" class="img-80" />
 
+    <div class="sub"><h2>Vivero Madre Selva</h2></div>
     <!-- comienzo de las grillas -->
 
     <div class="grillas-a">
@@ -62,9 +69,9 @@
     <!-- fin de las grillas -->
 
     <!-- Inicio de las fichas tecnicas -->
-    <h2>Fichas Tecnicas de Plantas Ornamentales</h2>
+    <div class="sub"><h2>Fichas Tecnicas de Plantas Ornamentales</h2></div>
 
-   <main>
+    <main>
       <!-- Card1 -->
       <section class="plant-card">
         <div class="card-barra">
@@ -74,56 +81,59 @@
         <div class="plant-info">
           <img src="./img/plantas/photus-mini.jpg" alt="Photus" />
           <ul>
-            <li><strong>Nombre científico:</strong> Lilium spp.</li>
-            <li><strong>Familia:</strong> Liliaceae</li>
+            <li><strong>Nombre científico:</strong> Epipremnum aureum</li>
+            <li><strong>Familia:</strong> Aráceas</li>
             <li>
-              <strong>Cuidados:</strong> Suelo bien drenado. Riego regular y
-              exposición al sol parcial.
+              <strong>Cuidados:</strong> Suelto y fértil. Sustrato de resaca de
+              río, turba y tierra negra en partes iguales.
             </li>
             <li>
-              <strong>Descripción:</strong> El lirio es una planta bulbosa con
-              flores de diversos colores.
+              <strong>Descripción:</strong>Planta trepadora o rastrera con
+              raíces adventicias y tallo herbáceo. Cultivada por su follaje.
             </li>
-                       
           </ul>
         </div>
-        <form action="pages/photus.html">
-          <input type="submit" value="Mas Info" />
-      </form>
+        <div class="btn-cont">
+          <a href="./pages/photus.html" class="btn">Mas Info</a>
+        </div>
       </section>
 
       <!-- Fin Card1 -->
-       <!-- Card2 -->
-       <section class="plant-card">
+      <!-- Card2 -->
+      <section class="plant-card">
         <div class="card-barra">
           <h2>Alegria del Hogar</h2>
         </div>
 
         <div class="plant-info">
-          <img src="./img/plantas/alegria-del-hogar.jpg" alt="Alegria-del-Hogar" />
+          <img
+            src="./img/plantas/alegria-del-hogar.jpg"
+            alt="Alegria-del-Hogar"
+          />
           <ul>
-            <li><strong>Nombre científico:</strong> Lilium spp.</li>
-            <li><strong>Familia:</strong> Liliaceae</li>
+            <li><strong>Nombre científico:</strong> Impatiens walleriana</li>
+            <li><strong>Familia:</strong> Balsaminacea</li>
             <li>
-              <strong>Cuidados:</strong> Suelo bien drenado. Riego regular y
-              exposición al sol parcial.
+              <strong>Cuidados:</strong> Estas plantas se utilizan mucho en
+              macizos florales situados bajo sombra ligera formando un
+              espectacular efecto de masa hasta bien entrado el otoño si éste no
+              es muy frío.
             </li>
             <li>
-              <strong>Descripción:</strong> El lirio es una planta bulbosa con
-              flores de diversos colores.
+              <strong>Descripción:</strong> Es una popular planta de flor que,
+              aun siendo de exterior, se utiliza en el interior de las casas.
             </li>
-            
-            <a href="./pages/alegria-del-hogar.html"><span class="material-symbols-outlined">
-              add
-              </span> Mas info</a>
           </ul>
+        </div>
+        <div class="btn-cont">
+          <a href="./pages/alegria-del-hogar.html" class="btn">Mas Info</a>
         </div>
       </section>
 
       <!-- Fin Card2 -->
 
-       <!-- Card3 -->
-       <section class="plant-card">
+      <!-- Card3 -->
+      <section class="plant-card">
         <div class="card-barra">
           <h2>Anthurim</h2>
         </div>
@@ -131,27 +141,30 @@
         <div class="plant-info">
           <img src="./img/plantas/anthurim.jpg" alt="anturio" />
           <ul>
-            <li><strong>Nombre científico:</strong> Lilium spp.</li>
-            <li><strong>Familia:</strong> Liliaceae</li>
             <li>
-              <strong>Cuidados:</strong> Suelo bien drenado. Riego regular y
-              exposición al sol parcial.
+              <strong>Nombre científico:</strong> Anthurium scherzerianum.
+            </li>
+            <li><strong>Familia:</strong> Araceae</li>
+            <li>
+              <strong>Cuidados:</strong> Buena luz, pero sin rayos directos del
+              sol porque le produciría quemaduras.
             </li>
             <li>
-              <strong>Descripción:</strong> El lirio es una planta bulbosa con
-              flores de diversos colores.
+              <strong>Descripción:</strong> Anthurium andraeanum es una especie
+              de angiosperma de la familia Araceae que es nativa de Colombia y
+              Ecuador.
             </li>
-            <a href="./pages/anthurim.html"><span class="material-symbols-outlined">
-              add
-              </span> Mas info</a>
           </ul>
+        </div>
+        <div class="btn-cont">
+          <a href="./pages/anthurim.html" class="btn">Mas Info</a>
         </div>
       </section>
 
       <!-- Fin Card3 -->
 
-       <!-- Card4 -->
-       <section class="plant-card">
+      <!-- Card4 -->
+      <section class="plant-card">
         <div class="card-barra">
           <h2>Aphelandra</h2>
         </div>
@@ -159,27 +172,29 @@
         <div class="plant-info">
           <img src="./img/plantas/aphelandra.jpg" alt="anturio" />
           <ul>
-            <li><strong>Nombre científico:</strong> Lilium spp.</li>
-            <li><strong>Familia:</strong> Liliaceae</li>
+            <li><strong>Nombre científico:</strong> Aphelandra squarrosa</li>
+            <li><strong>Familia:</strong> Acanthaceae</li>
             <li>
-              <strong>Cuidados:</strong> Suelo bien drenado. Riego regular y
-              exposición al sol parcial.
+              <strong>Cuidados:</strong> La Afelandra necesita una atmósfera
+              húmeda, por lo que si la pones cerca del radiador tendrás que
+              pulverizar sus hojas, o bien, dejarla sobre un cuenco con piedras
+              mojadas.
             </li>
             <li>
-              <strong>Descripción:</strong> El lirio es una planta bulbosa con
-              flores de diversos colores.
+              <strong>Descripción:</strong> Afelandra no es fácil de cultivar,
+              pero merece la pena.
             </li>
-            <a href="./pages/aphelandra.html"><span class="material-symbols-outlined">
-              add
-              </span> Mas info</a>
           </ul>
+        </div>
+        <div class="btn-cont">
+          <a href="./pages/aphelandra.html" class="btn">Mas Info</a>
         </div>
       </section>
 
       <!-- Fin Card4 -->
 
-       <!-- Card5 -->
-       <section class="plant-card">
+      <!-- Card5 -->
+      <section class="plant-card">
         <div class="card-barra">
           <h2>Begonia Elatior</h2>
         </div>
@@ -187,26 +202,28 @@
         <div class="plant-info">
           <img src="./img/plantas/begonia-elatior.jpg" alt="anturio" />
           <ul>
-            <li><strong>Nombre científico:</strong> Lilium spp.</li>
-            <li><strong>Familia:</strong> Liliaceae</li>
+            <li><strong>Nombre científico:</strong> Begonia elatior.</li>
+            <li><strong>Familia:</strong>Begoniaceae</li>
             <li>
-              <strong>Cuidados:</strong> Suelo bien drenado. Riego regular y
-              exposición al sol parcial.
+              <strong>Cuidados:</strong> Mantener el substrato siempre húmedo,
+              no encharcado. Su mayor problema es por pudrición de los tallos al
+              pasarse con el riego
             </li>
             <li>
-              <strong>Descripción:</strong> El lirio es una planta bulbosa con
-              flores de diversos colores.
+              <strong>Descripción:</strong>El género Begonia comprende alrededor
+              de 1500 especies, de las que alrededor de 150, además de casi 10
+              000 variedades e híbridos,
             </li>
-            <a href="./pages/begonia-elatior.html"><span class="material-symbols-outlined">
-              add
-              </span> Mas info</a>
           </ul>
+        </div>
+        <div class="btn-cont">
+          <a href="./pages/begonia-elatior.html" class="btn">Mas Info</a>
         </div>
       </section>
 
       <!-- Fin Card5 -->
-       <!-- Card6 -->
-       <section class="plant-card">
+      <!-- Card6 -->
+      <section class="plant-card">
         <div class="card-barra">
           <h2>Gazanias</h2>
         </div>
@@ -214,26 +231,26 @@
         <div class="plant-info">
           <img src="./img/plantas/gazania.jpg" alt="anturio" />
           <ul>
-            <li><strong>Nombre científico:</strong> Lilium spp.</li>
-            <li><strong>Familia:</strong> Liliaceae</li>
+            <li><strong>Nombre científico:</strong>Gazania splendens.</li>
+            <li><strong>Familia:</strong> Asteraceae</li>
             <li>
               <strong>Cuidados:</strong> Suelo bien drenado. Riego regular y
               exposición al sol parcial.
             </li>
             <li>
-              <strong>Descripción:</strong> El lirio es una planta bulbosa con
-              flores de diversos colores.
+              <strong>Descripción:</strong> Planta perenne cultivada como anual
+              en climas con inviernos fríos.
             </li>
-            <a href="./pages/gazanias.html"><span class="material-symbols-outlined">
-              add
-              </span> Mas info</a>
           </ul>
+        </div>
+        <div class="btn-cont">
+          <a href="./pages/gazanias.html" class="btn">Mas Info</a>
         </div>
       </section>
 
       <!-- Fin Card6 -->
-       <!-- Card7 -->
-       <section class="plant-card">
+      <!-- Card7 -->
+      <section class="plant-card">
         <div class="card-barra">
           <h2>Calas de Color</h2>
         </div>
@@ -241,26 +258,27 @@
         <div class="plant-info">
           <img src="./img/plantas/calas-de-colores.jpg" alt="anturio" />
           <ul>
-            <li><strong>Nombre científico:</strong> Lilium spp.</li>
-            <li><strong>Familia:</strong> Liliaceae</li>
+            <li><strong>Nombre científico:</strong> Zantedeschia aethiopica</li>
+            <li><strong>Familia:</strong> Aráceas</li>
             <li>
-              <strong>Cuidados:</strong> Suelo bien drenado. Riego regular y
-              exposición al sol parcial.
+              <strong>Cuidados:</strong>la cala es una planta semiacuática, por
+              lo que puede ser cultivada en maceta, manteniéndola parcialmente
+              sumergida en agua.
             </li>
             <li>
-              <strong>Descripción:</strong> El lirio es una planta bulbosa con
-              flores de diversos colores.
+              <strong>Descripción:</strong> - Planta vivaz que vegeta a expensas
+              de un tallo carnoso subterráneo que rebrota cada año.
             </li>
-            <a href="./pages/calas-de-color.html"><span class="material-symbols-outlined">
-              add
-              </span> Mas info</a>
           </ul>
+        </div>
+        <div class="btn-cont">
+          <a href="./pages/calas-de-color.html" class="btn">Mas Info</a>
         </div>
       </section>
 
       <!-- Fin Card7 -->
-       <!-- Card8 -->
-       <section class="plant-card">
+      <!-- Card8 -->
+      <section class="plant-card">
         <div class="card-barra">
           <h2>Camelia</h2>
         </div>
@@ -268,26 +286,26 @@
         <div class="plant-info">
           <img src="./img/plantas/camelia1.jpg" alt="anturio" />
           <ul>
-            <li><strong>Nombre científico:</strong> Lilium spp.</li>
-            <li><strong>Familia:</strong> Liliaceae</li>
+            <li><strong>Nombre científico:</strong> Camellia japonica.</li>
+            <li><strong>Familia:</strong>Theaceae</li>
             <li>
-              <strong>Cuidados:</strong> Suelo bien drenado. Riego regular y
-              exposición al sol parcial.
+              <strong>Cuidados:</strong> Camelia prefiere la semisombra y en
+              climas calurosos está mejor orientada al norte.
             </li>
             <li>
-              <strong>Descripción:</strong> El lirio es una planta bulbosa con
-              flores de diversos colores.
+              <strong>Descripción:</strong> Es un arbusto floral o un árbol
+              pequeño, nativo de Japón, Corea y China .​En la zona central de
+              Chile, la ciudad de Bulnes es conocida como la ciudad de las
+              Camelias.
             </li>
-            <a href="./pages/camelia.html"><span class="material-symbols-outlined">
-              add
-              </span> Mas info</a>
           </ul>
         </div>
+        <div class="btn-cont"><a href="#" class="btn">Mas Info</a></div>
       </section>
 
       <!-- Fin Card8 -->
-       <!-- Card9 -->
-       <section class="plant-card">
+      <!-- Card9 -->
+      <section class="plant-card">
         <div class="card-barra">
           <h2>Santa Rita</h2>
         </div>
@@ -295,27 +313,28 @@
         <div class="plant-info">
           <img src="./img/plantas/santa-rita.jpg" alt="anturio" />
           <ul>
-            <li><strong>Nombre científico:</strong> Lilium spp.</li>
-            <li><strong>Familia:</strong> Liliaceae</li>
+            <li><strong>Nombre científico:</strong> Bougainvillea glabra</li>
+            <li><strong>Familia:</strong> Nyctaginaceae</li>
             <li>
-              <strong>Cuidados:</strong> Suelo bien drenado. Riego regular y
-              exposición al sol parcial.
+              <strong>Cuidados:</strong> Puede crecer sin problemas en maceteros
+              y en jardineras, pero son plantas de raíces sensibles,
+              intolerantes al trasplante, sobre todo si son ejemplares que
+              tienen varios años.
             </li>
             <li>
-              <strong>Descripción:</strong> El lirio es una planta bulbosa con
-              flores de diversos colores.
+              <strong>Descripción:</strong> - Hojas elípticas de 13 cm de
+              longitud, con la base estrechada y el ápice agudo, glabras o con
+              pubescencia esparcida.
             </li>
-            <a href="./pages/santa-rita.html"><span class="material-symbols-outlined">
-              add
-              </span> Mas info</a>
           </ul>
+        </div>
+        <div class="btn-cont">
+          <a href="./pages/santa-rita.html" class="btn">Mas Info</a>
         </div>
       </section>
 
       <!-- Fin Card9-->
-   
     </main>
-    </div>
 
     <footer>
       <p>Derechos de autor ©2023 Marcos Popovich xD</p>
